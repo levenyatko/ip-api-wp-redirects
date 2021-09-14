@@ -1,0 +1,77 @@
+.ipapi-settings--wrap {
+    background: #fff;
+    padding: 5px 20px;
+    margin-top: 10px;
+    margin-right: 17px;
+    border: 1px solid #ccd0d4;
+}
+
+.ipapi-section-form--row label {
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.ipapi-settings-section--wrap {
+    border-top: 1px #ccd0d4 solid;
+    margin-top: 20px;
+}
+
+.ipapi-redirect-locations-description {
+    font-style: italic;
+}
+
+.ipapi-section-form--long-row {
+    width: 50%;
+}
+
+.ipapi-section-form--long-row label,
+.ipapi-section-form--long-row input[type=text]{
+    width: 100%;
+    min-width: 200px;
+}
+
+.ipapi-row-remove {
+    color: #007cba;
+    margin-left: 5px;
+}
+
+.ipapi-row-remove:hover,
+.ipapi-row-remove:active{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.ipapi-redirect--table {
+    margin: 10px 0;
+}
+
+.ipapi-redirect--table .ipapi-redirect--table-heading{
+    background: #f0f0f0;
+}
+
+.ipapi-redirect--table td{
+    vertical-align: middle;
+}
+
+.ipapi_locations_to_redirect--group:hover{
+    background: #f9f9f9;
+}
+
+.ipapi_locations_to_redirect--tiny-col {
+    width: 80px;
+}
+
+.ipapi_locations_to_redirect--tiny-col input {
+    vertical-align: sub;
+}
+
+.ipapi-redirect-locations--footer .ipapi-redirect-locations-add,
+.ipapi-redirect-locations--footer .ipapi_locations-description {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ipapi-redirect-locations--footer .ipapi_locations-description p{
+    margin: 0.4em 0.5em;
+}
