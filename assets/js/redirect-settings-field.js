@@ -55,7 +55,7 @@
     });
 
     function add_repeater_new_row() {
-        console.log(wp);
+
         var template = wp.template('redirect-locations-row'),
             html     = template();
 

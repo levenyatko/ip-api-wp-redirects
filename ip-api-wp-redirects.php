@@ -2,8 +2,9 @@
 /**
  * Plugin Name:     User Geo Redirects
  * Description:     The simplest way to redirect users or close website to maintenance based on geolocation. The <a href="https://ip-api.com/docs" target="_blank">IP-API</a> is used to determine the location.
- * Author:          Darya Levchenko
+ * Author:          Daria Levchenko
  * Author URI:      https://github.com/levenyatko
+ * Plugin URI:      https://github.com/levenyatko/ip-api-wp-redirects
  * Version:         1.0.0
  * Text Domain:     ipapi_redirects
  * License:         GPL-2.0+

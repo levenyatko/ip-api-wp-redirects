@@ -29,9 +29,10 @@ class IpApiMaintenance
     public function include_template()
     {
         $file_name = 'maintenance-page.php';
+        $theme_filder = 'ipapi/';
 
-        if ( locate_template( $file_name ) ) {
-            $template = locate_template( $file_name );
+        if ( locate_template( $theme_filder.$file_name ) ) {
+            $template = locate_template( $theme_filder.$file_name );
         } else {
             // Template not found in theme's folder, use plugin's template as a fallback
             $template = IPAPI_GEO_REDIRECTS_PLUGIN_DIR . '/templates/' . $file_name;
